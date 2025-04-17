@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  .content{
+    display: flex;
+    background-color: #EFEFEF;
+    width: 1920px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+   .content ul{
+    list-style: none;
+
+   }

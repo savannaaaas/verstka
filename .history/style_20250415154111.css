@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    width: 1920px;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+  
+  }
+  .content{
+  }
+  .top-line{
+    display: flex;
+    background-color: #EFEFEF;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+
+  }
+   .top-line ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    gap: 30px;
+   }
+   .second-line{
+    display: flex;
+    margin: 0 550px;
+  justify-content: space-between;
+   }
+
+.logo{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+   }
+.logo img{
+    width: 80px;
+}
+   .logo h1{
+    font-size: 36px;
+    color: #F13C6E;
+   }
